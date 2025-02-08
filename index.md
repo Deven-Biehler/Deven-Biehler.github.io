@@ -4,9 +4,9 @@ layout: default
 
 # About Me
 
-![Profile Picture](images/your-image.jpg)
+![Profile Picture](images/headshot.JPG)
 
-Hello! I'm **Therese Roche**, a passionate geospatial and machine learning enthusiast. My work focuses on **LiDAR data indexing**, **spatial data analysis**, and **machine learning for geospatial applications**. I have experience developing **efficient spatial queries**, **disaster response optimization**, and **geospatial machine learning models**.
+Hello! I'm **Deven Biehler**, a passionate geospatial and machine learning enthusiast. My work focuses on **LiDAR data indexing**, **spatial data analysis**, and **machine learning for geospatial applications**. I have experience developing **efficient spatial queries**, **disaster response optimization**, and **geospatial machine learning models**.
 
 Outside of work, I love exploring **new technologies**, contributing to **open-source projects**, and working on **data visualization**.
 
@@ -37,6 +37,6 @@ Outside of work, I love exploring **new technologies**, contributing to **open-s
 ---
 
 ### Contact
-Feel free to reach out to me on [GitHub](https://github.com/thereseroche) or connect on [LinkedIn](#)!
+Feel free to reach out to me on [GitHub](https://github.com/thereseroche) or connect on [LinkedIn](https://www.linkedin.com/in/deven-biehler/)!
 
 ---
