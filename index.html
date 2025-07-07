@@ -161,6 +161,13 @@
             font-size: 0.85rem;
             margin-right: 8px;
             margin-bottom: 5px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .tech-tag:hover {
+            background: #2980b9;
+            transform: translateY(-1px);
         }
 
         .project-links {
@@ -265,6 +272,8 @@
 <body>
     <header>
         <h1>Deven Biehler</h1>
+        <img src="./Formal_Headshot.png" alt="Deven Biehler" style="position: relative; width: 150px; height: 150px; border-radius: 50%; float: left; margin-left: 100px; margin-top: -80px;">
+        <img src="./wsu.png" alt="Deven Biehler" style="position: relative; width: 150px; height: 150px; border-radius: 50%; float: right; margin-right: 100px; margin-top: -80px;">
         <p class="subtitle">Computer Science Student | Data Scientist</p>
         <div class="contact-links">
             <a href="mailto:deven.biehler@wsu.edu">deven.biehler@wsu.edu</a>
@@ -276,20 +285,22 @@
 
     <div class="about">
         <h2>About Me</h2>
-        <p>I'm a Computer Science student at Washington State University with a passion for Data Science and problem-solving. I enjoy building applications that solve real-world problems and am constantly learning new technologies.</p>
-        
+        <p>I'm a graduate student at Washington State University pursuing a Master's in data science with a focus on geospatial algorithms and machine learning. 
+            I develop scalable algorithms for processing large datasets and am currently researching geospatial algorithms at the SCADS Laboratory, 
+            with published work on flow modeling and 3D dataset indexing.</p>
+
         <div class="skills-grid">
             <div class="skill-category">
                 <h4>Languages</h4>
                 <p>Python, SQL, JavaScript, C, C++</p>
             </div>
             <div class="skill-category">
-                <h4>Frameworks</h4>
-                <p>React, Node.js, Django</p>
+                <h4>Skills</h4>
+                <p>Geospatial Analysis, Machine Learning, Data Visualization</p>
             </div>
             <div class="skill-category">
                 <h4>Tools</h4>
-                <p>Git, Docker, AWS, PostgreSQL</p>
+                <p>QGIS, ArcGIS, Tableau, Git, Docker, SQL Server, Dask, ROS</p>
             </div>
         </div>
     </div>
@@ -313,10 +324,10 @@
             </p>
             <div class="tech-stack">
                 <strong>Tech Stack:</strong>
-                <span class="tech-tag">Python</span>
+                <a href="https://www.python.org/" class="tech-tag">Python</a>
             </div>
             <div class="project-links">
-                <a href="#" class="btn btn-secondary">GitHub</a>
+                <a href="#" class="btn btn-secondary">GitHub (Publishing in Progress)</a>
             </div>
         </div>
     </div>
@@ -332,9 +343,12 @@
             </p>
             <div class="tech-stack">
                 <strong>Tech Stack:</strong>
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">Dask</span>
-                <span class="tech-tag">PoTree</span>
+                <a href="https://www.python.org/" class="tech-tag">Python</a>
+                <a href="https://www.dask.org/" class="tech-tag">Dask</a>
+                <a href="https://github.com/potree/potree" class="tech-tag">PoTree</a>
+            </div>
+            <div class="project-links">
+                <a href="#" class="btn btn-secondary">GitHub (Publishing in Progress)</a>
             </div>
         </div>
     </div>
@@ -346,15 +360,15 @@
         <div class="project-content">
             <h3 class="project-title">Disaster-Net</h3>
             <p class="project-description">
-                A WIP project that aims to create a framework for disaster response using geospatial data. It focuses on optimizing resource allocation and route planning during disasters.
+                A WIP project that aims to create a framework for disaster response using geospatial data. It focuses on optimizing resource allocation and route planning during disasters based on spatial graph algorithms.
             </p>
             <div class="tech-stack">
                 <strong>Tech Stack:</strong>
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">QGIS</span>
+                <a href="https://www.python.org/" class="tech-tag">Python</a>
+                <a href="https://qgis.org/" class="tech-tag">QGIS</a>
             </div>
             <div class="project-links">
-                <a href="#" class="btn btn-secondary">GitHub</a>
+                <a href="#" class="btn btn-secondary">GitHub (WIP)</a>
             </div>
         </div>
     </div>
@@ -370,8 +384,8 @@
             </p>
             <div class="tech-stack">
                 <strong>Tech Stack:</strong>
-                <span class="tech-tag">ArcGIS</span>
-                <span class="tech-tag">Pandas</span>
+                <a href="https://www.esri.com/en-us/arcgis/about-arcgis/overview" class="tech-tag">ArcGIS</a>
+                <a href="https://pandas.pydata.org/" class="tech-tag">Pandas</a>
             </div>
             <div class="project-links">
                 <a href="ArcGis Geo Visual Analysis-1.pdf" class="btn btn-secondary">Presentation</a>
@@ -393,10 +407,10 @@
             </p>
             <div class="tech-stack">
                 <strong>Tech Stack:</strong>
-                <span class="tech-tag">Tableau</span>
-                <span class="tech-tag">Pandas</span>
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">SQL</span>
+                <a href="https://www.tableau.com/" class="tech-tag">Tableau</a>
+                <a href="https://pandas.pydata.org/" class="tech-tag">Pandas</a>
+                <a href="https://www.python.org/" class="tech-tag">Python</a>
+                <a href="https://en.wikipedia.org/wiki/SQL" class="tech-tag">SQL</a>
             </div>
             <div class="project-links">
                 <a href="https://github.com/Deven-Biehler/us-covid-visualization" class="btn btn-secondary">GitHub</a>
@@ -418,13 +432,13 @@
             </p>
             <div class="tech-stack">
                 <strong>Tech Stack:</strong>
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">Pandas</span>
-                <span class="tech-tag">NLP</span>
-                <span class="tech-tag">Topic Modeling</span>
+                <a href="https://www.python.org/" class="tech-tag">Python</a>
+                <a href="https://pandas.pydata.org/" class="tech-tag">Pandas</a>
+                <a href="https://en.wikipedia.org/wiki/Natural_language_processing" class="tech-tag">NLP</a>
+                <a href="https://en.wikipedia.org/wiki/Topic_model" class="tech-tag">Topic Modeling</a>
             </div>
             <div class="project-links">
-                <a href="#" class="btn btn-secondary">GitHub</a>
+                <a href="#" class="btn btn-secondary">GitHub (Coming Soon)</a>
             </div>
         </div>
     </div>
@@ -443,13 +457,13 @@
             </p>
             <div class="tech-stack">
                 <strong>Tech Stack:</strong>
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">Pandas</span>
-                <span class="tech-tag">NLP</span>
-                <span class="tech-tag">Topic Modeling</span>
+                <a href="https://www.python.org/" class="tech-tag">Python</a>
+                <a href="https://pandas.pydata.org/" class="tech-tag">Pandas</a>
+                <a href="https://en.wikipedia.org/wiki/Natural_language_processing" class="tech-tag">NLP</a>
+                <a href="https://en.wikipedia.org/wiki/Topic_model" class="tech-tag">Topic Modeling</a>
             </div>
             <div class="project-links">
-                <a href="#" class="btn btn-secondary">GitHub</a>
+                <a href="#" class="btn btn-secondary">GitHub (Coming Soon)</a>
             </div>
         </div>
     </div>
@@ -465,10 +479,10 @@
             </p>
             <div class="tech-stack">
                 <strong>Tech Stack:</strong>
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">ROS</span>
-                <span class="tech-tag">OpenCV</span>
-                <span class="tech-tag">YOLO</span>
+                <a href="https://www.python.org/" class="tech-tag">Python</a>
+                <a href="https://www.ros.org/" class="tech-tag">ROS</a>
+                <a href="https://opencv.org/" class="tech-tag">OpenCV</a>
+                <a href="https://github.com/ultralytics/yolov5" class="tech-tag">YOLO</a>
             </div>
             <div class="project-links">
                 <a href="https://csanr.wsu.edu/using-autonomous-pathing-orchard-robots/" class="btn btn-secondary">Blog</a>
@@ -487,9 +501,9 @@
             </p>
             <div class="tech-stack">
                 <strong>Tech Stack:</strong>
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">PyTorch</span>
-                <span class="tech-tag">OpenCV</span>
+                <a href="https://www.python.org/" class="tech-tag">Python</a>
+                <a href="https://pytorch.org/" class="tech-tag">PyTorch</a>
+                <a href="https://opencv.org/" class="tech-tag">OpenCV</a>
             </div>
             <div class="project-links">
                 <a href="flood_prediction_model.pdf" class="btn btn-secondary">Research Paper</a>
